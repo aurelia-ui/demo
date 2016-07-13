@@ -1,8 +1,5 @@
 export class Welcome {
 
-  doNothing() {
-
-  }
 
 }
 

@@ -1,7 +1,7 @@
 # Aurelia Components
 
 
-[DEMO](https://aurelia-ui.github.com/demo)
+[DEMO](https://aurelia-ui.github.io/demo)
 
 ## Running The App
 

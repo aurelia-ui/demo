@@ -19,10 +19,10 @@ export class ExampleCustomElement {
 
   attached(){
     SystemJS.import(this.id + ".js.map" + "!text").then(sourceMap => {
-      this.jsCode = JSON.parse(sourceMap).sourcesContent[0];
-    })
+      this.jsCode = Prism.highlight(JSON.parse(sourceMap).sourcesContent[0], Prism.languages.javascript);
+    });
     SystemJS.import(this.id + ".html" + "!text").then(html => {
-      this.htmlCode = html;
+      this.htmlCode = Prism.highlight(html, Prism.languages.html);
     })
 
   }

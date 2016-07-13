@@ -5,7 +5,8 @@ export function configure(aurelia) {
     .standardConfiguration()
     .developmentLogging();
 
-
+  
+  aurelia.use.globalResources("components/syntax-highlight");
   aurelia.use.globalResources("components/example");
 
   aurelia.use.globalResources("components/dropdown");

@@ -14,11 +14,11 @@
     </div>
 
     <div if.bind="active=='html'">
-        <pre><code>${htmlCode}</code></pre>
+        <pre><code innerhtml.bind="htmlCode"></code></pre>
     </div>
 
     <div if.bind="active=='js'">
-      <pre><code>${jsCode}</code></pre>
+      <pre><code innerhtml.bind="jsCode"></code></pre>
     </div>
   </div>
 

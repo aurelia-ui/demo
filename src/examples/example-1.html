@@ -1,0 +1,28 @@
+<template>
+  <div style="width: 100px">
+    <dropdown icon-class="fa fa-gear"
+              button-class="btn btn-primary"
+              title="Settings"
+              view-model.ref="secondDropdown"
+              close-on-item-click.bind="false"
+    >
+      <div style="width: 300px;border:1px solid green; padding: 20px; margin: 5px">
+        Click inside... it's not gonna close
+        <code>close-on-item-click.bind="false"</code>
+        <p>
+          <label><input type="checkbox" checked.bind="checked"> ${checked}</label>
+        </p>
+        but outside click closes dropdown
+        <p>
+          <button type="button" class="btn btn-xs btn-default" click.trigger="doSomething()">do something(nothing)</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-xs btn-warning" click.trigger="secondDropdown.close()">close dropdown
+          </button>
+        </p>
+
+      </div>
+
+    </dropdown>
+  </div>
+</template>

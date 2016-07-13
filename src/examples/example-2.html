@@ -1,0 +1,16 @@
+<template>
+  <div style="width: 100px">
+    <dropdown icon-class="fa fa-gear"
+              button-class="btn btn-primary"
+    >
+      <li>
+        <a href="" click.trigger="choose('Hello')">Hello</a>
+      </li>
+      <li>
+        <a href="" click.trigger="choose('World')">World</a>
+      </li>
+    </dropdown>
+
+    ${chosen}
+  </div>
+</template>

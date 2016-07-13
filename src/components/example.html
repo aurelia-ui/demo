@@ -1,0 +1,25 @@
+<template>
+
+  <ul class="nav nav-tabs">
+    <li role="presentation" class="${active=='demo'?'active':''}" click.trigger="active='demo'"><a href="#">Demo</a>
+    </li>
+    <li role="presentation" class="${active=='html'?'active':''}" click.trigger="active='html'"><a href="#">Template</a>
+    </li>
+    <li role="presentation" class="${active=='js'?'active':''}" click.trigger="active='js'"><a href="#">JS Code</a></li>
+  </ul>
+
+  <div style="padding: 20px">
+    <div if.bind="active=='demo'">
+      <compose view-model.bind="id"></compose>
+    </div>
+
+    <div if.bind="active=='html'">
+        <pre><code>${htmlCode}</code></pre>
+    </div>
+
+    <div if.bind="active=='js'">
+      <pre><code>${jsCode}</code></pre>
+    </div>
+  </div>
+
+</template>

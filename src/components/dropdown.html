@@ -1,0 +1,8 @@
+<template>
+  <div class="dropdown ${expanded?'open':''}" >
+    <button class="${buttonClass}"><i if.bind="iconClass" class="${iconClass}"></i> ${title}</button>
+    <div class="dropdown-menu">
+      <slot></slot>
+    </div>
+  </div>
+</template>

@@ -4,7 +4,8 @@ module.exports = {
       "includes": [
         "[**/*.js]",
         "**/*.html!text",
-        "**/*.css!text"
+        "**/*.css!text",
+        "**/*.js.map!text"
       ],
       "options": {
         "inject": true,
@@ -27,8 +28,10 @@ module.exports = {
         "aurelia-loader-default",
         "aurelia-history-browser",
         "aurelia-logging-console",
-        "bootstrap",
+        // "bootstrap",
         "bootstrap/css/bootstrap.css!text",
+        "prismjs",
+        "prismjs/themes/prism.css!text",
         "fetch",
         "jquery"
       ],

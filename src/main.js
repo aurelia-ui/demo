@@ -6,10 +6,10 @@ export function configure(aurelia) {
     .developmentLogging();
 
   
-  aurelia.use.globalResources("components/syntax-highlight");
-  aurelia.use.globalResources("components/example");
-
-  aurelia.use.globalResources("components/dropdown");
+  aurelia.use.globalResources("components/example/example");
+  aurelia.use.globalResources("components/dropdown/dropdown");
+  aurelia.use.globalResources("components/chart/chart");
+  aurelia.use.globalResources("components/markdown/markdown");
 
   //Uncomment the line below to enable animation.
   //aurelia.use.plugin('aurelia-animator-css');

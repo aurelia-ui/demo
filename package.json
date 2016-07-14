@@ -82,9 +82,12 @@
       "aurelia-templating-router": "npm:aurelia-templating-router@^1.0.0-rc.1.0.0",
       "bluebird": "npm:bluebird@3.4.1",
       "bootstrap": "github:twbs/bootstrap@^3.3.6",
+      "chartjs": "npm:chart.js@^2.1.6",
       "fetch": "github:github/fetch@^1.0.0",
       "font-awesome": "npm:font-awesome@4.6.3",
       "jquery": "npm:jquery@^2.2.4",
+      "markdown-it": "npm:markdown-it@^7.0.0",
+      "moment": "github:moment/moment@^2.13.0",
       "prismjs": "npm:prismjs@^1.5.1",
       "text": "github:systemjs/plugin-text@^0.0.8"
     },

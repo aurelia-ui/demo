@@ -1,0 +1,18 @@
+<template>
+
+  <style scoped>
+    chart {
+      width: 500px;
+      height: 250px;
+      display: block;
+      box-shadow: 0 10px 6px -6px #777;
+      border: 1px solid #eee;
+    }
+  </style>
+
+  <chart data.bind="data"
+         loading.bind="loading"
+         options.bind="options"
+         type="line"></chart>
+
+</template>

@@ -4,4 +4,5 @@ export class Example2 {
   choose(chosen){
     this.chosen = chosen;
   }
+  
 }

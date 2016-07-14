@@ -32,6 +32,8 @@ module.exports = {
         "bootstrap/css/bootstrap.css!text",
         "prismjs",
         "prismjs/themes/prism.css!text",
+        "chartjs",
+        "markdown-it",
         "fetch",
         "jquery"
       ],
